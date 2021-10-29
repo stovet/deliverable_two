@@ -11,7 +11,7 @@ for(let i = 0; i < 6; i++){
        energy +=2
    } else if(task === "walk"){
        if(energy === 0){
-           prompt("Not enough energy to enjoy a walk")
+           alert("Not enough energy to enjoy a walk");
        } else {
        happiness+=2;
        energy -=1;
